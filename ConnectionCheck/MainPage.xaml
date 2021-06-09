@@ -7,7 +7,10 @@
         HorizontalOptions="Center"
         Spacing="40"
         VerticalOptions="Center">
-        <Label x:Name="label" Text="Click the button to check your connection." />
+        <Label
+            x:Name="label"
+            HorizontalOptions="Center"
+            Text="Click the button to check your connection." />
         <Button Clicked="BtnCheck_Clicked" Text="Check Connection" />
     </StackLayout>
 </ContentPage>
